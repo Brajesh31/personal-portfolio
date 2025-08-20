@@ -19,10 +19,10 @@ jobs:
           node-version: '22'  # Use your Node.js version
 
       - name: Install dependencies
-        run: npm install --force
+        run: pnpm install --force
 
       - name: Run build
-        run: npm run build
+        run: pnpm run build
 
       - name: Deploy dist folder via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
