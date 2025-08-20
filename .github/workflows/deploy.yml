@@ -33,6 +33,6 @@ jobs:
           server: 157.173.208.175
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./dist/
+          local-dir: ./out/
           server-dir: brajesh3/
           port: 21
